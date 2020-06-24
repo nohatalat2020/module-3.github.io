@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+header {
+    background-color: cadetblue;
+    color: whitesmoke
+}
+
+.navbar-nav .nav-link{
+    visibility: hidden;
+    text-align: center
+        
+}
+.navbar-light .navbar-brand{
+    color: azure
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:black;
+}
+.nav-item{
+    border:2px solid #117a8b;
+    width:100%
+}
+.navbar-collapse{
+    background-color: beige;
+    color: black
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    
+    color:burlywood
+}
+
+.navbar-light .navbar-toggler{
+    border:2px solid #1e7e34
+}
+
+.container h1{
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.row {
+    background-color: burlywood;
+    margin: auto
+}
+
+
+
+@media(max-width:768px){
+       
+ .navbar-nav .nav-link{
+         visibility: visible;
+     color: black
+        
+}
+    
+}
+
+
+@media(max-width:767px)and(min-width:991px){
+     
+ .navbar-nav .nav-link{
+    visibility: hidden
+}
+}
+
+@media(min-width:991px){
+ .navbar-nav .nav-link{
+        visibility: hidden
+    }
+    .navbar-expand-lg .navbar-collapse{
+        display: none!important
+    } 
+}
+
+@media(max-width:991px){
+    
+    
+ .navbar-nav .nav-link{
+        visibility: visible;
+       
+     
+    }
+}
